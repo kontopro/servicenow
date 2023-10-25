@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Enhancement Requests">d071e392930e3910415b7af08bba10f3</sc_cat_item>
+        <sc_category display_value="Support">47d112c29306f510415b7af08bba1059</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>prokopis</sys_created_by>
+        <sys_created_on>2023-10-25 10:33:24</sys_created_on>
+        <sys_id>d471ef92930e3910415b7af08bba107c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support.Enhancement Request</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>sc_cat_item_category_d471ef92930e3910415b7af08bba107c</sys_update_name>
+        <sys_updated_by>prokopis</sys_updated_by>
+        <sys_updated_on>2023-10-25 10:33:24</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</application>
+        <file_path/>
+        <instance_id>217ca1a41bcab9d4fe1b43f4bd4bcb23</instance_id>
+        <instance_name>dev190717</instance_name>
+        <name>sc_cat_item_category_d471ef92930e3910415b7af08bba107c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Enhancement Requests">d071e392930e3910415b7af08bba10f3</sc_cat_item>
+        <sc_category display_value="Support">47d112c29306f510415b7af08bba1059</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>prokopis</sys_created_by>
+        <sys_created_on>2023-10-25 10:33:24</sys_created_on>
+        <sys_id>d471ef92930e3910415b7af08bba107c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support.Enhancement Request</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>sc_cat_item_category_d471ef92930e3910415b7af08bba107c</sys_update_name>
+        <sys_updated_by>prokopis</sys_updated_by>
+        <sys_updated_on>2023-10-25 10:33:24</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>1186807108</payload_hash>
+        <record_name>Support.Enhancement Request</record_name>
+        <reverted_from/>
+        <source>1849c126478a3110fba076a4416d43d6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 18:07:00</sys_created_on>
+        <sys_id>b0490526478a3110fba076a4416d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b6804b3810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 18:07:00</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>70490526308a311020a35c0aa4edbb34</update_guid>
+        <update_guid_history>70490526308a311020a35c0aa4edbb34:1186807108</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Support.Enhancement Request">230d8d6a478a3110fba076a4416d43e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 18:23:34</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>07b42dddb90c432db38c4691d6c832c9</sys_id>
+        <sys_metadata>d471ef92930e3910415b7af08bba107c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Support.Enhancement Request</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_scope_delete display_value="">4a85b1fc0add4f819c107c49b9a3f951</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_d471ef92930e3910415b7af08bba107c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_d471ef92930e3910415b7af08bba107c">b0490526478a3110fba076a4416d4334</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 18:23:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
