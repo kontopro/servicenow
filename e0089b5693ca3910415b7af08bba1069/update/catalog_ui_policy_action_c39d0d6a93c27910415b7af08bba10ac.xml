@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Copy of Enhancement Request">9e9d096a93c27910415b7af08bba10e3</catalog_item>
+        <catalog_variable>IO:669dc96a93c27910415b7af08bba10be</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>prokopis</sys_created_by>
+        <sys_created_on>2023-10-25 18:26:00</sys_created_on>
+        <sys_id>c39d0d6a93c27910415b7af08bba10ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scheduled_end_date</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c39d0d6a93c27910415b7af08bba10ac</sys_update_name>
+        <sys_updated_by>prokopis</sys_updated_by>
+        <sys_updated_on>2023-10-25 18:26:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Implementation Fields">079d0d6a93c27910415b7af08bba10a2</ui_policy>
+        <variable>scheduled_end_date</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>
