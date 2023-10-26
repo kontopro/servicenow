@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout display_value="Employee notification layout">9d3d6f8777823010f088a0e89e5a997f</email_layout>
+        <message><![CDATA[Short Description: ${sysapproval.short_description}
+Priority: ${sysapproval.priority}
+Requested For: ${sysapproval.requested_for}
+Requested By: ${sysapproval.opened_by}
+Total Price: ${sysapproval.price}
+<hr/>
+<mail_script>
+  template.print("Summary of Requested items:\n");  
+  var item = new GlideRecord("sc_req_item");
+  item.addQuery("request", current.sysapproval);
+  item.query();
+  while(item.next()) {
+      template.print(item.number + ":  " + item.quantity + " X " + item.cat_item.getDisplayValue() + " at " + item.price.getDisplayValue() + " each \n");
+      template.print("    Options:\n");
+      var keys = new Array();
+      var set = new GlideappVariablePoolQuestionSet();
+      set.setRequestID(item.sys_id);
+      set.load();
+      var vs = set.getFlatQuestions();
+      for (var i=0; i < vs.size(); i++) {
+        if(vs.get(i).getLabel() != '') {
+           template.space(4);
+           template.print('     ' +  vs.get(i).getLabel() + " = " + vs.get(i).getDisplayValue() + "\n");  
+        }
+      }
+  }
+</mail_script>
+Comments:
+${sysapproval.description}
+<hr/>
+${mailto:mailto.approval}
+<hr/>
+${mailto:mailto.rejection}
+<hr/>
+Approval Activity:
+${mail_script:approval_activity}
+<hr />
+Click here to view Approval Request: ${URI}
+Click here to view ${sysapproval.sys_class_name}:  ${sysapproval.URI}
+]]></message>
+        <message_html><![CDATA[<div>Short Description: ${sysapproval.short_description}</div>
+<div>Priority: ${sysapproval.priority}</div>
+<div>Requested For: ${sysapproval.requested_for}</div>
+<div>Requested By: ${sysapproval.opened_by}</div>
+<div>&nbsp;</div>
+<div><hr /></div>
+<div>${mail_script:request.itil.approve.role_script_1}</div>
+<div>Comments:</div>
+<div>${sysapproval.description}</div>
+<div><hr /></div>
+<div>${mailto:mailto.approval}</div>
+<div><hr /></div>
+<div>${mailto:mailto.rejection}</div>
+<div><hr /></div>
+<div>Approval Activity:</div>
+<div>${mail_script:approval_activity}</div>
+<div><hr /></div>
+<div>Click here to view Approval Request: ${URI}</div>
+<div>Click here to view ${sysapproval.sys_class_name}: ${sysapproval.URI}</div>
+<div>&nbsp;</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>request.itil.approve.empedus_approval</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 12:06:20</sys_created_on>
+        <sys_id>1740c1f693ca7110a66a7b018bba1010</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>request.itil.approve.empedus_approval</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>sysevent_email_template_1740c1f693ca7110a66a7b018bba1010</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 12:09:50</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

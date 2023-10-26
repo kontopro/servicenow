@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>request.itil.approve.role_script_1</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[template.print("Summary of Requested items:\n");  
+  var item = new GlideRecord("sc_req_item");
+  item.addQuery("request", current.sysapproval);
+  item.query();
+  while(item.next()) {
+      template.print(item.number + ":  " + item.quantity + " X " + item.cat_item.getDisplayValue() + " at " + item.price.getDisplayValue() + " each \n");
+      template.print("    Options:\n");
+      var keys = new Array();
+      var set = new GlideappVariablePoolQuestionSet();
+      set.setRequestID(item.sys_id);
+      set.load();
+      var vs = set.getFlatQuestions();
+      for (var i=0; i < vs.size(); i++) {
+        if(vs.get(i).getLabel() != '') {
+           template.space(4);
+           template.print('     ' +  vs.get(i).getLabel() + " = " + vs.get(i).getDisplayValue() + "\n");  
+        }
+      }
+  }]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 12:06:48</sys_created_on>
+        <sys_id>8a6001f693ca7110a66a7b018bba10e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request.itil.approve.role_script_1</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>sys_script_email_8a6001f693ca7110a66a7b018bba10e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 12:06:48</sys_updated_on>
+    </sys_script_email>
+</record_update>
