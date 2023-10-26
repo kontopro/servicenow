@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sttrm_state_transition">
+    <sttrm_state_transition action="INSERT_OR_UPDATE">
+        <automatic>false</automatic>
+        <from_state display_value="Implement">fb5324fe474a7110fba076a4416d4341</from_state>
+        <name>Implement to Review</name>
+        <sys_class_name>sttrm_state_transition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 09:59:57</sys_created_on>
+        <sys_id>4c6324fe474a7110fba076a4416d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Implement to Review</sys_name>
+        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
+        <sys_update_name>sttrm_state_transition_4c6324fe474a7110fba076a4416d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-26 09:59:57</sys_updated_on>
+        <to_state display_value="Review">735324fe474a7110fba076a4416d4344</to_state>
+    </sttrm_state_transition>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c6324fe474a7110fba076a4416d4371"/>
+</record_update>
