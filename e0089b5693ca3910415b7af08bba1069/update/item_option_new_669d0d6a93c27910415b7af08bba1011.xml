@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Copy of Enhancement Request">9e9d096a93c27910415b7af08bba10e3</cat_item>
+        <cat_item display_value="Enhancement Request">9e9d096a93c27910415b7af08bba10e3</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -79,7 +79,7 @@
         <sys_id>669d0d6a93c27910415b7af08bba1011</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Risk and Impact Analysis</sys_name>
-        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
         <sys_update_name>item_option_new_669d0d6a93c27910415b7af08bba1011</sys_update_name>

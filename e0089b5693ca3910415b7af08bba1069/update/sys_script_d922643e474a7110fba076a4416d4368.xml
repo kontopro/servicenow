@@ -15,7 +15,8 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="sc_task">short_descriptionLIKEEffort Estimation^stateCHANGESTO3^variablesHASITEMVARIABLE:656192829306f510415b7af08bba1067ISEMPTY^ORvariablesHASITEMVARIABLE:b7509a029306f510415b7af08bba108dISEMPTY^ORvariablesHASITEMVARIABLE:32601e029306f510415b7af08bba1004ISEMPTY^ORvariablesHASITEMVARIABLE:9ce016429306f510415b7af08bba10eeISEMPTY^ORvariablesHASITEMVARIABLE:6e011a429306f510415b7af08bba105aISEMPTY^ORvariablesHASITEMVARIABLE:31f0de029306f510415b7af08bba1088ISEMPTY^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Effort Estimation"/>
+        <filter_condition table="sc_task">short_descriptionLIKEEffort Estimation^cat_item=9e9d096a93c27910415b7af08bba10e3^stateCHANGESTO3^variablesHASITEMVARIABLE:656192829306f510415b7af08bba1067ISEMPTY^ORvariablesHASITEMVARIABLE:b7509a029306f510415b7af08bba108dISEMPTY^ORvariablesHASITEMVARIABLE:32601e029306f510415b7af08bba1004ISEMPTY^ORvariablesHASITEMVARIABLE:9ce016429306f510415b7af08bba10eeISEMPTY^ORvariablesHASITEMVARIABLE:6e011a429306f510415b7af08bba105aISEMPTY^ORvariablesHASITEMVARIABLE:31f0de029306f510415b7af08bba1088ISEMPTY^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="LIKE" or="false" value="Effort Estimation"/>
+            <item display_table="sc_cat_item" display_value="Enhancement Request" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="9e9d096a93c27910415b7af08bba10e3"/>
             <item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
             <item endquery="false" field="variables" goto="false" newquery="false" operator="HASITEMVARIABLE" or="false" value=":656192829306f510415b7af08bba1067ISEMPTY"/>
             <item endquery="false" field="variables" goto="false" newquery="false" operator="HASITEMVARIABLE" or="true" value=":b7509a029306f510415b7af08bba108dISEMPTY"/>
@@ -50,7 +51,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Effort Estimation Mandatory</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
         <sys_update_name>sys_script_d922643e474a7110fba076a4416d4368</sys_update_name>
