@@ -19,8 +19,8 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-<!--         <scope>x_716231_empedus_1</scope> -->
-        <scope>emped_support_app</scope>
+        <scope>x_716231_empedus_1</scope>
+<!--         <scope>emped_support_app</scope> -->
         <scoped_administration>false</scoped_administration>
         <short_description>Request Enhancements from Empedus</short_description>
         <source>x_716231_empedus_1</source>
