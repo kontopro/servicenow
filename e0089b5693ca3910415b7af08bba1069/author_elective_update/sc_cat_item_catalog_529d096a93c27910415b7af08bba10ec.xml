@@ -8,7 +8,7 @@
         <sys_id>529d096a93c27910415b7af08bba10ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Empedus Catalog.Copy of Enhancement Request</sys_name>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
         <sys_update_name>sc_cat_item_catalog_529d096a93c27910415b7af08bba10ec</sys_update_name>
@@ -32,7 +32,7 @@
         <sys_id>529d096a93c27910415b7af08bba10ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Empedus Catalog.Copy of Enhancement Request</sys_name>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
         <sys_update_name>sc_cat_item_catalog_529d096a93c27910415b7af08bba10ec</sys_update_name>
@@ -58,7 +58,7 @@
         <update_guid_history>368e89ea0f8a3110a6c53c3333bab9a6:-907936996</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Empedus Catalog.Copy of Enhancement Request">23eec52e478a3110fba076a4416d43d9</sys_audit_delete>
+        <sys_audit_delete display_value="">23eec52e478a3110fba076a4416d43d9</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-25 18:31:46</sys_created_on>
@@ -67,7 +67,7 @@
         <sys_metadata>529d096a93c27910415b7af08bba10ec</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Empedus Catalog.Copy of Enhancement Request</sys_name>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_parent display_value="Enhancement Request">9e9d096a93c27910415b7af08bba10e3</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>

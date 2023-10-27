@@ -15,7 +15,7 @@
         <sys_id>5c3e74f293ca7110a66a7b018bba106c</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>mailto.approval.empedus</sys_name>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
         <sys_update_name>sysevent_email_template_5c3e74f293ca7110a66a7b018bba106c</sys_update_name>
@@ -30,7 +30,7 @@
         <instance_id>1ba062681b0e31189377eb9b2d4bcbf7</instance_id>
         <instance_name>dev190927</instance_name>
         <name>sysevent_email_template_5c3e74f293ca7110a66a7b018bba106c</name>
-        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;sysapproval_approver&lt;/collection&gt;&lt;email_layout display_value="Employee notification layout"&gt;9d3d6f8777823010f088a0e89e5a997f&lt;/email_layout&gt;&lt;message&gt;&lt;![CDATA[Click here to approve ${sysapproval}]]&gt;&lt;/message&gt;&lt;message_html/&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;mailto.approval.empedus&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Re:${sysapproval} - approve&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-26 11:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;5c3e74f293ca7110a66a7b018bba106c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;mailto.approval.empedus&lt;/sys_name&gt;&lt;sys_package display_value="Empedus Support App" source="x_716231_empedus_1"&gt;e0089b5693ca3910415b7af08bba1069&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Empedus Support App"&gt;e0089b5693ca3910415b7af08bba1069&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_5c3e74f293ca7110a66a7b018bba106c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-26 11:57:22&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysevent_email_template"&gt;&lt;sysevent_email_template action="INSERT_OR_UPDATE"&gt;&lt;collection&gt;sysapproval_approver&lt;/collection&gt;&lt;email_layout display_value="Employee notification layout"&gt;9d3d6f8777823010f088a0e89e5a997f&lt;/email_layout&gt;&lt;message&gt;&lt;![CDATA[Click here to approve ${sysapproval}]]&gt;&lt;/message&gt;&lt;message_html/&gt;&lt;message_list/&gt;&lt;message_text/&gt;&lt;name&gt;mailto.approval.empedus&lt;/name&gt;&lt;sms_alternate/&gt;&lt;subject&gt;Re:${sysapproval} - approve&lt;/subject&gt;&lt;sys_class_name&gt;sysevent_email_template&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-26 11:57:07&lt;/sys_created_on&gt;&lt;sys_id&gt;5c3e74f293ca7110a66a7b018bba106c&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;mailto.approval.empedus&lt;/sys_name&gt;&lt;sys_package display_value="Empedus Support App" source="x_emped_support"&gt;e0089b5693ca3910415b7af08bba1069&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Empedus Support App"&gt;e0089b5693ca3910415b7af08bba1069&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysevent_email_template_5c3e74f293ca7110a66a7b018bba106c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-26 11:57:22&lt;/sys_updated_on&gt;&lt;sys_version&gt;2&lt;/sys_version&gt;&lt;/sysevent_email_template&gt;&lt;/record_update&gt;</payload>
         <payload_hash>-500845598</payload_hash>
         <record_name>mailto.approval.empedus</record_name>
         <reverted_from/>
@@ -58,7 +58,7 @@
         <sys_metadata>5c3e74f293ca7110a66a7b018bba106c</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>mailto.approval.empedus</sys_name>
-        <sys_package display_value="Empedus Support App" source="x_716231_empedus_1">e0089b5693ca3910415b7af08bba1069</sys_package>
+        <sys_package display_value="Empedus Support App" source="x_emped_support">e0089b5693ca3910415b7af08bba1069</sys_package>
         <sys_parent display_value="Sysapproval Approver">70fd84e4d9b13110cedf7dffddb48fc2</sys_parent>
         <sys_policy/>
         <sys_scope display_value="Empedus Support App">e0089b5693ca3910415b7af08bba1069</sys_scope>
